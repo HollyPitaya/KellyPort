@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        <link rel="stylesheet" href="myStyle.css">
+        <title>Portfolio 1958 Faimly Portrait</title>
+    </head>
+    <body style="font-family: Verdana;">
+
+    <img src="CollectionImages/1958UC.png" alt="1958 Faimly Portrait" style="float: left; padding-right: 10px; width: 450px; height: 450;">
+
+    <section style="background-color:#cdd6ef; color: #110234;"> 
+        <h2 style="font-size: 49px;">1958 Faimly Portrait</h2>
+        <p>A mother, father, and their two sons standing in front of their home. Printed/Photographed June 14, 1958.
+        </p>
+        </section>
+
+
+    </body>
+
+</html>
