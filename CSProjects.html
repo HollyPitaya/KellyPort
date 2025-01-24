@@ -6,40 +6,50 @@
         <link rel="stylesheet" href="myStyle.css">
         <title>Portfolio Projects</title>
     </head>
-    <body style="font-family: Verdana;">
+    <body>
         <section style="background-color:#110234;">
             <nav>
-                <h2><a style="color: #cdd6ef; padding-right: 50px; padding-left: 10px; float:left;"href ="index.html">Home</a></h2>
-                <h2><a style="color: #cdd6ef; padding-right: 50px; float:left;"href ="CS.html">Computer Science/Engineering</a></h2>
-                <h2><a style="color: #cdd6ef; padding-right: 50px; float:left;"href ="Photography.html">Photography</a></h2>
-                <h2><a style="color: #cdd6ef;float:left" href ="Athletics.html">Athletics</a></h2>
+                <a href="index.html">
+                    <button type="button">Home</button>
+                </a>
+        
+                <a href="CS.html">
+                    <button type="button">Computer Science</button>
+                </a>
+        
+                <a href="Photography.html" >
+                    <button type="button">Photography</button>
+                </a>
+        
+                <a href="Athletics.html">
+                    <button type="button">Athletics</button>
+                </a>
             </nav>
         <header><h1>Projects</h1></header>
         </section>
 
 
-        <img src="Images/StoreCode.png" alt="StoreCode" style="float: right; padding-left: 10px; width: 600px; height: 400px;">
+        <!--<img class="leftImages" src="Images/StoreCode.png" alt="StoreCode" style="width: 600px;">-->
 
-        <section style="background-color:#cdd6ef; color: #110234;"> 
-            <h2 style="font-size: 49px;">Current Project</h2>
+        <section class="body"> 
+            <h2>Current Project</h2>
 
-            <p> In our CS Projects class, me and my classmates are making code that uses ASIN numbers from Amazon 
-                to find the prices associated with that ASIN number. This is a project for our school to figure out
-                 the monetary value of donations sent through Amazon. This project is coded in Python. We are on the final stages of development and are currently creating an application for the school.
+            <p> In our CS Projects class, me and my classmates are making a new website for the yearly event held by our teacher,
+                CyberSlam. The website needed a new look and had to be cost effective unlike the last one. Right now we are
+                finishing up making the front end of the website. I've created the Get to Know and Sponsors page as well as helping 
+                with the overall look and style. You You can see the website <a style="color: #110234;" href="https://tyreiqdow.github.io/Dump/index.html">here</a>, 
+                but keep in mind this is more of a testing ground and not the finished project, so things may look weird or incomplete. 
 
             </p>
 
-
             </section>
 
-            <br>
-        <br>
-        <br>
+            
 
         <!--<img src="" alt="" style="float: right; padding-left: 10px; width: 600px; height: 350px;">-->
 
-        <section style="background-color:#cdd6ef; color: #110234;">
-            <h2 style="font-size: 49px;">Current Project</h2> 
+        <section class="body">
+            <h2>Current Project</h2> 
         <p> I am planning to apply for the <a style="color: #110234;" href="https://awards.acm.org/cutler-bell">Cutler-Bell</a> Prize next year. 
             My project idea is to be able to take music and change it into vibrations on a bracelet so the Deaf Community can feel music. I'm in the 
             early stages of programing with a basic algorithm. I have a basic breadboard with a buzzer that I am using in place of a vibrating motor for testing purposes. 
@@ -47,31 +57,49 @@
         </section>
 
 
-            <br>
-        <br>
-        <br>
+            
 
-    <section style="background-color:#cdd6ef; color: #110234;"> 
-        <h2 style="font-size: 49px;">Terminal Projects</h2>
-            <h2><a style="color: #110234; padding-left: 300px; float:left;" href="https://studio.code.org/s/csa8-2022/lessons/13/levels/1">Kelly Uno(Java)</a></h2>
-            <h2><a style="color: #110234; padding-right: 300px; float:right;" href="https://github.com/HollyPitaya/Go-Fish">Go Fish(Python)</a></h2>
+    <section class="body"> 
+        <h2>Terminal Projects</h2>
+            <nav> 
+                <a href="https://studio.code.org/s/csa8-2022/lessons/13/levels/1">
+                    <button class="lower" type="button">Kelly Uno(Java)</button>
+                </a>
+                <a href="https://github.com/HollyPitaya/Go-Fish">
+                    <button class="lower" type="button">Go Fish(Python)</button>
+                </a>
+            </nav>
 
     </section>
 
-        <br>
-        <br>
-        <br>
+    <br>
 
-        <section style="background-color:#cdd6ef; color: #110234;"> 
-            <h2 style="font-size: 49px;">HTML Projects</h2>
+    <img class="rightImages" src="Images/donationProject.png" alt="donationProject" style="width: 45vmax;">
+
+
+    <section class="body"> 
+        <h2>Data&nbsp;Science Projects</h2>
+
+        
+
+        <p> In our CS Projects class, me and my classmates wrote a Python program that can read an uploaded donation file our school receives from Amazon and then 
+            return the total monetary amount of donations made. To do this, we had to take the ASIN numbers (Product IDs) from the Word Doc provided by Amazon, use an API to find the current price on 
+            Amazon, multiply that number by the quantity bought from the Word Doc, then add it to our total. My class went the API route since Amazon's website has a large amount of security to 
+            prevent web scraping. 
+        </p>
+
+        </section>
+
+        
+
+        <section class="body"> 
+            <h2>HTML Projects</h2>
                 <p> This website was made by me! My original website was on Google Sites but I wanted to pratice my HTML,
-                     so I migrated it.
+                    so I migrated it.
                 </p>
     
             </section>
 
-        <br>
-        <br>
         <br>
 
         <footer>
