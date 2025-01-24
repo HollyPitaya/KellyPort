@@ -6,22 +6,33 @@
         <link rel="stylesheet" href="myStyle.css">
         <title>Portfolio Robotics</title>
     </head>
-    <body style="font-family: Verdana;">
+    <body>
         <section style="background-color:#110234;">
             <nav>
-                <h2><a style="color: #cdd6ef; padding-right: 50px; padding-left: 10px; float:left;"href ="index.html">Home</a></h2>
-                <h2><a style="color: #cdd6ef; padding-right: 50px; float:left;"href ="CS.html">Computer Science/Engineering</a></h2>
-                <h2><a style="color: #cdd6ef; padding-right: 50px; float:left;"href ="Photography.html">Photography</a></h2>
-                <h2><a style="color: #cdd6ef;float:left" href ="Athletics.html">Athletics</a></h2>
+                <a href="index.html">
+                    <button type="button">Home</button>
+                </a>
+        
+                <a href="CS.html">
+                    <button type="button">Computer Science</button>
+                </a>
+        
+                <a href="Photography.html" >
+                    <button type="button">Photography</button>
+                </a>
+        
+                <a href="Athletics.html">
+                    <button type="button">Athletics</button>
+                </a>
             </nav>
         <header><h1>Robotics</h1></header>
         </section>
 
 
-    <section style="background-color:#cdd6ef; color: #110234;"> 
-        <p>I joined my high school's robotics club freshmen year: Lighting Robotics. Currently, as a junior, I am the 
+    <section class="body"> 
+        <p>I joined my high school's robotics club freshmen year: Lighting Robotics. Currently, as a sophomore, I am the 
             logistics manager of the club as well as being one of the general engineers. My job as the logistics manager 
-            includes getting funding and overall mangement. As an engineer, I 
+            includes getting funding, keeping our social media pages active, and maintain our website. As an engineer, I 
             work on the construction and building of robots as well as the building of competition pieces. 
         </p>
         <p> Every year we build a new robot for the FIRST Robotics Competition. We are FRC team #5763. And if we are not 
@@ -29,15 +40,19 @@
         </p>
         </section>
 
-        <img src="Images/Camera.jpg" alt="Camera" style="float: left; padding-left: 100px; width: 500px; height: 400;float:left">
-        <img src="Images/Comp.jpg" alt="Competition" style="float: left; padding-right: 100px; width: 600px; height: 400;float:right">
-        <br>
-        <img src="Images/CanBot.jpg" alt="CanBot" style="float: left; padding-left: 100px; width: 500px; height: 400;float:left">
-        <img src="Images/Testing.jpg" alt="Testing" style="float: left; padding-right: 100px; width: 600px; height: 400;float: right">
+        <div class="even">
 
-        <br>
-        <br>
-        <br>
+            <div class="colum"> 
+                <img src="Images/Camera.jpg" alt="Camera" style="width: 35vw;">
+                <img src="Images/CanBot.jpg" alt="CanBot" style="width: 35vw;">
+            </div>
+            <div class="colum">
+                <img src="Images/Comp.jpg" alt="Competition" style="width: 40vw;">
+            <img src="Images/Testing.jpg" alt="Testing" style="width: 40vw;">
+
+            </div>
+        </div>
+
 
         <footer>
             <p>Contact Me: kellyodell628@gmail.com</p>
