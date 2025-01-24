@@ -1,8 +1,35 @@
+body {
+    font-family: Verdana;
+}
+
+button {
+    float: right;
+    border-style: solid;
+    border-color:#cdd6ef;
+    box-sizing: border-box;
+    cursor: pointer;   
+    font-weight: 500;
+    padding-top: 1vw;
+    padding-bottom: 1.5vw;
+    text-align: center;
+    margin: 2px;
+    font-size: 3vmin;
+    color: #cdd6ef;
+    font-family: Verdana;
+    background-color: transparent;
+}
+
+.lower {
+    border-color:#110234;
+    color: #110234;
+    margin-top: 10px;
+}
+
 header {
     text-align: center;
     color: #cdd6ef;
-    padding: 20px; 
-    font-size: 54px; 
+    padding-bottom: 20px; 
+    font-size: 3vmax; 
 }
 
 img {
@@ -10,8 +37,84 @@ img {
     padding-bottom: 10px;
 }
 
+.leftImages{
+    float: left;
+    padding-right: 10px;
+}
+
+.rightImages{
+    float: right; 
+    padding-left: 10px;
+}
+
 p {
-    font-size: 20px; 
+    /*font-size: 1.35vw; */
+    font-size: 2.4vmin;
     line-height: 2;
 }
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.even{
+    display: flex;
+    justify-content: space-around;
+}
+
+.colum{
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.body {
+    background-color:#cdd6ef; 
+    color: #110234;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h2 {
+    font-size: 49px;
+    padding-left: 10px;
+}
+
+iframe{
+    padding-bottom: 15px;
+    width: 40vw;
+}
+
+.popup .popuptext{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    visibility: hidden;
+    background-color: white;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #110234;
+    color: #110234;
+    z-index:9999;
+    position: fixed;
+    padding: 1vw;
+    top: 2vw;
+    bottom: 2vw;
+    left: 8vw;
+    right: 8vw;
+    margin: auto;
+  }
+  
+  
+  /* Toggle this class when clicking on the popup container (hide and show the popup) */
+  .popup .show {
+    visibility: visible;
+  }
+
+  .click{
+    width: 300px; height: 325px;
+    cursor: pointer;
+  }
 
