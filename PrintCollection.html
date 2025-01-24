@@ -6,20 +6,31 @@
         <link rel="stylesheet" href="myStyle.css">
         <title>Portfolio Print Collection</title>
     </head>
-    <body style="font-family: Verdana;">
+    <body>
         <section style="background-color:#110234;">
             <nav>
-                <h2><a style="color: #cdd6ef; padding-right: 50px; padding-left: 10px; float:left;"href ="index.html">Home</a></h2>
-                <h2><a style="color: #cdd6ef; padding-right: 50px; float:left;"href ="CS.html">Computer Science/Engineering</a></h2>
-                <h2><a style="color: #cdd6ef; padding-right: 50px; float:left;"href ="CS.html">Photography</a></h2>
-                <h2><a style="color: #cdd6ef;float:left" href ="Athletics.html">Athletics</a></h2>
+                <a href="index.html">
+                    <button type="button">Home</button>
+                </a>
+        
+                <a href="CS.html">
+                    <button type="button">Computer Science</button>
+                </a>
+        
+                <a href="Photography.html" >
+                    <button type="button">Photography</button>
+                </a>
+        
+                <a href="Athletics.html">
+                    <button type="button">Athletics</button>
+                </a>
             </nav>
         <header><h1>Print Collection</h1></header>
         </section>
 
     
 
-    <section style="background-color:#cdd6ef; color: #110234;padding-left: 10px;"> 
+    <section class="body"> 
         <p> I love collecting old prints and I wanted to share them with others! Click on the photos to learn more about 
             them. Keep in mind the information I have on some are quite sparse, and, while I try to keep the information 
             the most factual as possible, some of it may be incorrect. If you know anything about these prints or they 
@@ -28,35 +39,40 @@
 
     </section>
 
+    <script src="main.js"></script>
+
     <br>
 
-        <a href="Collection/Norborne.html"><img src="Collection/ImagesCropped/NorborneC.png" alt="Norborne Portrait" style="float: left; padding-left:5px; padding-right: 30px; width: 300px; height: 325px;"></a>
-        <a href="Collection/manila.html"><img src="Collection/ImagesCropped/manilaC.png" alt="Manila Group Photo" style="float: left; padding-left: 15px; width: 300px; height: 325px;"></a>
-        <a href="Collection/military.html"><img src="Collection/ImagesCropped/militaryC.png" alt="Military Event" style="float: right; padding-left: 30px; width: 300px; height: 325px;"></a>
-        <a href="Collection/WillJennie.html"><img src="Collection/ImagesCropped/WJC.png" alt="William and Jennie Klinger" style="float: right; padding-right: 15px; width: 300px; height: 325px;"></a>
+    <div class="even">
+        <img class="click" src="Collection/ImagesCropped/NorborneC.png" alt="Norborne Portrait" onclick="description(1)" style="width: 22vw; height: 23vw;" >
+        <img class="click" src="Collection/ImagesCropped/manilaC.png" alt="Manila Group Photo" onclick="description(2)"  style="width: 22vw; height: 23vw;">
+        <img class="click" src="Collection/ImagesCropped/militaryC.png" alt="Military Event" onclick="description(3)"  style="width: 22vw; height: 23vw;">
+        <img class="click" src="Collection/ImagesCropped/WJC.png" alt="William and Jennie Klinger" onclick="description(4)"  style="width: 22vw; height: 23vw;">
+    </div>
 
-        <br>
+    <div class="even">
+        <img class="click" src="Collection/ImagesCropped/1958C.png" alt="1959 Woman" onclick="description(5)" style="width: 22vw; height: 23vw;" >
+        <img class="click" src="Collection/ImagesCropped/1959C.png" alt="1959 Woman" onclick="description(6)" style="width: 22vw; height: 23vw;" >
+        <img class="click" src="Collection/ImagesCropped/MilwaukeeC.png" alt="Milwaukee Portrait" onclick="description(7)"  style="width: 22vw; height: 23vw;">
+        <img class="click" src="Collection/ImagesCropped/grandfatherC.png" alt="Great-Great-Great Grandfather" onclick="description(8)"  style="width: 22vw; height: 23vw;">
+    </div>
 
-        <a href="Collection/1958.html"><img src="Collection/ImagesCropped/1958C.png" alt="1958 Faimly Portrait" style="float: left; padding-left:5px; padding-right: 30px; width: 300px; height: 325px;"></a>
-        <a href="Collection/1959.html"><img src="Collection/ImagesCropped/1959C.png" alt="1959 Woman" style="float: left; padding-left: 15px; width: 300px; height: 325px;"></a>
-        <a href="Collection/milwaukee.html"><img src="Collection/ImagesCropped/MilwaukeeC.png" alt="Milwaukee Portrait" style="float: right; padding-left: 30px; width: 300px; height: 325px;"></a>
-        <a href="Collection/grandfather.html"><img src="Collection/ImagesCropped/grandfatherC.png" alt="Great-Great-Great Grandfather" style="float: right; padding-right: 15px; width: 300px; height: 325px;"></a>
+    <div class="even">
+        <img class="click" src="Collection/ImagesCropped/grandmotherC.png" alt="Great-Great Grandmother" onclick="description(9)"  style="width: 22vw; height: 23vw;">
+        <img class="click" src="Collection/ImagesCropped/sophiawillC.png" alt="Sophia and William" onclick="description(10)"  style="width: 22vw; height: 23vw;">
+    </div>
 
-        <br>
-            <a href="Collection/grandmother.html"><img src="Collection/ImagesCropped/grandmotherC.png" alt="Great-Great Grandmother" style="float: left; padding-left: 250px; width: 300px; height: 325px;"></a>
-            <a href="Collection/sophiawill.html"><img src="Collection/ImagesCropped/sophiawillC.png" alt="Sophia and William" style="float: right; padding-right: 250px; width: 300px; height: 325px;"></a>
+    <div class="popup">
+        <p class="popuptext" id="popup"></p>
+      </div>
 
-
-        <br>
+      <br>
         <br>
         <br>
 
         <footer>
             <p>Contact Me: kellyodell628@gmail.com</p>
         </footer>
-    
-
-
 
     </body>
 
